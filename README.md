@@ -4,3 +4,5 @@
 # Finetune bigScience-bloom-1B7 model with *Persian News Summary*
 
 You can check all the steps in the notebook or you can run the notebook on *kaggle* if you want to test it out
+
+* Because this model is big enough to make most of GPUs out-of-memory, I used `LoRA` and *4-bit* `Quantization`
